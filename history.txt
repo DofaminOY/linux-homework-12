@@ -1,62 +1,25 @@
-    1  [200~
-    2   200git clone gitgithub.com:AndreevVE/200226-wdm.git
-    3  git clone https://github.com/AndreevVE/200226-wdm.git
-    4  cd GitTest-200226-wdm
-    5  ls
-    6  cd 200226-wdm
-    7  git init~
-    8  git init
-    9  git add
-   10  git add .
-   11  git commit -m "first commit"
-   12  git remote add origin https://github.com/DofaminOY/my-first-repo.git
-   13  git remote remove origin
-   14  git remote add origin https://github.com/DofaminOY/my-first-repo.git
-   15  cd 200226-wdm
-   16  git status
-   17  git add .
-   18  [200~echo "# my-first-repo" >> README.md
-   19  git init
-   20  git add README.md
-   21  git commit -m "first commit"
-   22  git branch -M main
-   23  git remote add origin https://github.com/DofaminOY/my-first-repo.git
-   24  git push -u origin main[200~
-   25  git push -u origin main
-   26  mkdir git_intro
-   27  cd git_intro
-   28  git init
-   29  ls
-   30  git add 1.jpg
-   31  git commit -m "Added photo"
-   32  git branch -M main
-   33  git push -u origin main
-   34  git remote add origin https://github.com/DofaminOY/git_intro.git
-   35  git push -u origin main
-   36  git clone https://github.com/DofaminOY/linux-homework-12.git
-   37  cd linux-homework-12~
-   38  cd linux-homework-12
-   39  touch .gitignore
-   40  touch README.md
-   41  ls -la
-   42  git add .
-   43  git commit -m "first commit"
-   44  git push -u origin main
-   45  git checkout -b feature
-   46  echo "Linux homework feature branch" >> README.md
-   47  echo "*.log" >> .gitignore
-   48  cat README.md
-   49  cat .gitignore
-   50  git add .
-   51  git commit -m "feature changes"
-   52  git push -u origin feature
-   53  git commit --amend
-   54  [200~cd linux-homework-12~
-   55  cd linux-homework-12
-   56  git status
-   57  git commit --amend -m "feature changes amend"
-   58  git push --force-with-lease
-   59  git checkout main
-   60  git merge feature
-   61  git push origin main
-   62  history > history.txt
+git clone https://github.com/DofaminOY/linux-homework-12.git
+cd linux-homework-12
+touch .gitignore
+touch README.md
+ls -la
+git add .
+git commit -m "first commit"
+git push -u origin main
+git checkout -b feature
+echo "Linux homework feature branch" >> README.md
+echo "*.log" >> .gitignore
+cat README.md
+cat .gitignore
+git add .
+git commit -m "feature changes"
+git push -u origin feature
+git commit --amend -m "feature changes amend"
+git push --force-with-lease
+git checkout main
+git merge feature
+git push origin main
+history > history.txt
+git add history.txt
+git commit -m "add history"
+git push origin main
